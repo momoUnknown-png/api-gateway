@@ -1,16 +1,2 @@
-<<<<<<< HEAD
-# API Gateway 项目
-
-该项目包含以下子模块：
-
-- api-gateway-admin
-- api-gateway-assist
-- api-gateway-center
-- api-gateway-core
-- api-gateway-engine
-- api-gateway-sdk
-- api-gateway-test
-=======
 # api-gateway
-基于微服务架构的API 网关
->>>>>>> eadef8d0698dfa2072e4dcb04bca99d24a1ea67b
+本项目是一个基于微服务架构设计的 API 网关系统，旨在统一管理内部 RPC（Dubbo）接口服务，并通过协议解析与泛化调用对外提供标准化的 HTTP 接口。系统作为微服务通信的统一流量入口，希望实现请求路由、协议转换、安全鉴权、限流熔断、服务发现与动态负载等能力。
